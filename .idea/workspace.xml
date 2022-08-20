@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68906e49-2b29-49c9-9ef2-e63d78874ead" name="Changes" comment="Drugi projekt">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/AboutCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/Cookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/Customers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/Offer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/Shareholding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/TopMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LinksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decsoft/com/pl/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LinksTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660989243694</updated>
     </task>
+    <task id="LOCAL-00001" summary="Drugi projekt">
+      <created>1661011851589</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661011851589</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

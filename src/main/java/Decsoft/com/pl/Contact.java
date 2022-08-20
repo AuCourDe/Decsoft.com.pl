@@ -10,10 +10,11 @@ public class Contact extends BasePage {
     }
 
     @FindBy(xpath = "//div[@class='gm-err-title']")
-    private WebElement mesageErr;
+    private WebElement validatorMessage;
 
-
-    public String getErrorMessage(){
-        return mesageErr.getText();
+    public String getValidatorMessage(){
+        return validatorMessage.getText();
     }
+
+
 }
