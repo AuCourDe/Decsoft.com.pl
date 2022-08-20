@@ -16,7 +16,7 @@ public class LinksTest extends TestBase {
     Shareholding shareholding;
     TopMenu topMenu;
 
-    String dataToAssert = "Ups... Coś poszło nie tak.";
+    String dataToAssert = "www.decsoft.com.pl -> 'Kontakt' -> tu powinna być mapka";
 
     @BeforeMethod
     public void testSetUp() {
@@ -39,11 +39,11 @@ public class LinksTest extends TestBase {
         mainPage.goToCloud();
         mainPage.goToVirtualization();
         mainPage.goToSecurity();
-        mainPage.goToRandomCertyficateAndConcesion();//to samo
+        mainPage.goToRandomCertyficateAndConcesion();//the same website
         mainPage.goToPartners();
         mainPage.goToBasicInformation();
         mainPage.goToProfile();
-        mainPage.goToCeryficates();//to samo
+        mainPage.goToCeryficates();//the same website
         mainPage.goToReferences();
         mainPage.goToJob();
         topMenu.goToOffer();
@@ -77,17 +77,17 @@ public class LinksTest extends TestBase {
         offer.goToSysSiem();
         topMenu.goToCutomers();
         customers.goToPublicSector();
-        customers.goToBanking();
-        customers.goToHighAvailbility();
         customers.goToHealthCare();
-        customers.goToCustomersWithItServices();
         customers.goToIndustry();
+        customers.goToBanking();
+        customers.goToCustomersWithItServices();
+        customers.goToHighAvailbility();
         customers.goToSensitiveData();
         topMenu.goToCookies();
         topMenu.goToNews();
         topMenu.goToShareholding();
         topMenu.goToContact();
-        System.out.println(contact.getErrorMessage());
-        Assert.assertEquals(contact.getErrorMessage(), dataToAssert);
+        System.out.println(contact.getValidatorMessage() + " -> na stonie 'Kontakt' nie działa mapka.");
+        Assert.assertEquals(contact.getValidatorMessage(), dataToAssert);
     }
 }
